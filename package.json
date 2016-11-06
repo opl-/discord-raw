@@ -1,0 +1,29 @@
+{
+  "name": "discord-raw",
+  "version": "1.0.0",
+  "description": "A very small Discord library that allows easily receiving raw events with support for session resuming.",
+  "main": "./lib/DiscordRaw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "discordapp",
+    "bot",
+    "client",
+    "user"
+  ],
+  "author": "opl",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^1.1.1"
+  },
+  "bugs": "https://github.com/opl-/discord-raw/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opl-/discord-raw.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
